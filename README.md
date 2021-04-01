@@ -2,13 +2,14 @@
 This is a project to develop a unique identifier for each public API.
 
 # Draft Proposal
-Here is the format being proposed as a starting point for each identifier.
+The proposed format for name APIs is: <entity>:<protocol>:<domain>:<version>:<category>
+Here is the description of each field used in the proposed format. 
 
-- **entity** - The root domain for organization behind API.
-- **protocol** - The protocol used as a transport.
-- **domain** - The root domain for organization behind API.
-- **version** - The version of the API being identified.
-- **catgory** - A general or specific resource.
+- **entity** - The root domain of the organization providing the API (e.g., twitter).
+- **protocol** - The transport protocol used by the API (e.g., https).
+- **domain** - The availability of API in public or private domains (this feild must be private or public).
+- **version** - The specific version of the API (e.g., 1.3).
+- **category** - A general or specific resource or class (e.g., business or finance).
 
 These would represent each part of the id, delimited using a colon.
 
