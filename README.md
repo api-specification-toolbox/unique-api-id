@@ -34,6 +34,8 @@ CPE provides a good reference model that can be used to identify Web APIs global
 ## Contribute / Support
 We are using Github issues to drive the conversation. We are just getting started so make sure you share your feedback.
 
+- [**API Workspace**](https://www.postman.com/api-evangelist/workspace/unique-api-identifier/overview) - This a public workspace with a mocked registry API with documentation, and environment--we will be using it to move forward the registry and the API behind.
+
 ## Project Supporters
 This project is currently being driven by following contributors, but we are looking for more individuals/organizations to contribute.
 
