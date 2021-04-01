@@ -2,13 +2,14 @@
 This is a project to develop naming specifications (nomenclature) to uniquely identify APIs available on the Web.
 
 # Draft Proposal
-The proposed nomenclature for APIs is: {entity}:{protocol}:{domain}:{version}:{category}
+The proposed nomenclature for APIs is: {vendor}:{protocol}:{domain}:{resource}:{version}:{category}
 
 The description of each field used in this API nomenclature specification is as follows: 
 
-- **entity** - The root domain of the organization providing the API (e.g., twitter).
+- **vendor** - The organization providing the API (e.g., twitter).
 - **protocol** - The transport protocol used by the API (e.g., https).
-- **domain** - The availability of API in public or private domains (this feild must be private or public).
+- **domain** - The WWW domian name of the API (e.g., twitter.com).
+- **resource** - The specific resource of the API (e.g., search).
 - **version** - The specific version of the API (e.g., 1.3).
 - **category** - A general or specific resource or class (e.g., business or social).
 
