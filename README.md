@@ -2,7 +2,7 @@
 This is a project to develop a unique identifier for each public API.
 
 # Draft Proposal
-The proposed format for name APIs is: <entity>:<protocol>:<domain>:<version>:<category>
+The proposed format for name APIs is: {entity}:{protocol}:{domain}:{version}:{category}
 Here is the description of each field used in the proposed format. 
 
 - **entity** - The root domain of the organization providing the API (e.g., twitter).
